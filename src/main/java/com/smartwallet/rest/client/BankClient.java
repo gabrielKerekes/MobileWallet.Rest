@@ -15,11 +15,35 @@ import com.google.gson.Gson;
 import com.smartwallet.rest.bank.messages.BankMessage;
 
 public class BankClient {
-	private static final String AddressBase = "http://127.0.0.1:8080/bank/rest/";
+//	private static final String AddressBase = "http://127.0.0.1:8080/bank/rest/";
+	private static String AddressBase = null;
+
+	private static void initializeAddressBaseFromFile() {
+		System.out.println("Initializing BankAddressBase");
+		if (AddressBase != null) {
+			System.out.println("BankBaseAddress already initialized");
+			return;
+		}
+
+		try {
+			BufferedReader br = new BufferedReader(
+					new InputStreamReader(BankClient.class.getResourceAsStream("/bank.conf")));
+			AddressBase = br.readLine();
+			br.close();
+		} catch (Exception e) {
+			AddressBase = "http://127.0.0.1:8080/bank/rest/";
+			e.printStackTrace();
+			System.out.println("IP config file not found");
+		}
+
+		return;
+	}
 
 	public static int executePost(String request, BankMessage message) {
 		System.out.println("BANK POST - " + message.getAccountNumber() + " " + message.getTimestamp());
-		
+
+		initializeAddressBaseFromFile();
+
 		try {
 	        URL url = new URL(AddressBase + request);
 	        HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
