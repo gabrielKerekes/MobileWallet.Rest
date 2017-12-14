@@ -67,7 +67,7 @@ public class LDAP {
 	private String readLdapIpFromConfigFile() {
 		try {
 			BufferedReader br = new BufferedReader(
-					new InputStreamReader(this.getClass().getResourceAsStream("/config/ldapIp.conf")));
+					new InputStreamReader(this.getClass().getResourceAsStream("/ldapIp.conf")));
 			ldapIp = br.readLine();
 			br.close();
 		} catch (Exception e) {

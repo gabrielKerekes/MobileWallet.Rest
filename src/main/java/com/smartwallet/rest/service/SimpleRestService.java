@@ -152,6 +152,7 @@ public class SimpleRestService {
 			ConfirmIdentityGcmMessage confirmIdentityMessage = new ConfirmIdentityGcmMessage(message.getAccountNumber(), message.getTimestamp(), message.getGuid(), message.getAction());
 			Gcm.post(username, confirmIdentityMessage);	
 		} catch (Exception e) {
+			e.printStackTrace();
 			response = new MyResponse(false, MyResponse.ResponseString.EXCEPTION, e.getMessage());		
 		} 
 		

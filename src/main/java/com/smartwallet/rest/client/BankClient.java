@@ -15,8 +15,8 @@ import com.google.gson.Gson;
 import com.smartwallet.rest.bank.messages.BankMessage;
 
 public class BankClient {
-	private static final String AddressBase = "http://127.0.0.1:8080/BankServer2/bank/rest/";
-	
+	private static final String AddressBase = "http://127.0.0.1:8080/bank/rest/";
+
 	public static int executePost(String request, BankMessage message) {
 		System.out.println("BANK POST - " + message.getAccountNumber() + " " + message.getTimestamp());
 		

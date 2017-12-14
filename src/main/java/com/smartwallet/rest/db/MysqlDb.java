@@ -29,7 +29,7 @@ public class MysqlDb {
 		Properties props = new Properties();
 		BufferedReader br = null;
 		try {
-			br = new BufferedReader(new InputStreamReader(this.getClass().getResourceAsStream("/config/db.conf")));
+			br = new BufferedReader(new InputStreamReader(this.getClass().getResourceAsStream("/db.conf")));
 			props.load(br);
 			mysqlDataSource = new MysqlDataSource();
 			mysqlDataSource.setURL(props.getProperty("MYSQL_DB_URL"));
