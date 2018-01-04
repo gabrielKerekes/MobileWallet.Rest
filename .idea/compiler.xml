@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SmartWallet.Rest" />
+        <module name="MobileWallet.Rest" />
         <module name="SslCertificateTestServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="SmartWallet.Rest" target="1.8" />
+      <module name="MobileWallet.Rest" target="1.8" />
       <module name="SslCertificateTestServer" target="1.5" />
     </bytecodeTargetLevel>
   </component>

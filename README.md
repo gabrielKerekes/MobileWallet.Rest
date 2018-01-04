@@ -1,2 +1,1 @@
-# SmartWallet.Rest
-SmartWallet REST service repository
+# MobileWallet.Rest MobileWallet REST service repository

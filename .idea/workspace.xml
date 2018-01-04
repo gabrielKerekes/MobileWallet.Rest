@@ -2,15 +2,87 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SmartWallet.Rest:war exploded" />
+      <artifact name="MobileWallet.Rest:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10ee975d-0a42-40be-876e-20b7f9744b2b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/SmartWallet_Rest_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartWallet.Rest.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/classes/bank.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/classes/com/bank.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/classes/db.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/classes/ldapIp.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/asm-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/gson-2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/httpclient-4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/httpcore-4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/jackson-all-1.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/javax.mail.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/jersey-bundle-1.18.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/jersey-core-1.0.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/jersey-server-1.0.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/json-simple-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/jsr311-api-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/jsr311-api-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/ldap.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/log4j-1.2.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.41-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/ormlite-core-4.46.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/ormlite-jdbc-4.46.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/smack.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/smackx.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/xstream-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/lib/zxing-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SslCertificateTestServer_war_exploded/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SslCertificateTestServer_war_exploded/WEB-INF/lib/jersey-bundle-1.18.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SslCertificateTestServer_war_exploded/WEB-INF/lib/jsr311-api-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SslCertificateTestServer_war_exploded/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SslCertificateTestServer_war_exploded/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smartwallet.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/bank/messages/AddAccountNumberTokenBankMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/bank/messages/BankMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/bank/messages/ConfirmIdentityRequestBankMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/bank/messages/ConfirmIdentityResponseBankMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/bank/messages/ConfirmTransactionRequestBankMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/bank/messages/ConfirmTransactionResponseBankMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/client/BankClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/db/MysqlDb.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/db/PendingIdentityConfirmationDbObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/Gcm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/GcmMessageType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/messages/ConfirmIdentityGcmMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/messages/ConfirmTransactionGcmMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/messages/GcmMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/ocrahotp/Ocra.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/ocrahotp/OcraHotp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/ocrahotp/OtpGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/LDAP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/MyResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/Recovery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/RegistrationUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/SimpleRestService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/UserData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/AddAccountNumberServiceMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/ConfirmIdentityResponseServiceMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/ConfirmTransactionResponseServiceMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/DateDeserializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/ServiceMessage.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Jersey_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Jersey_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_bundle_1_18_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_bundle_1_18_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/asm_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/asm_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/classes/db.conf" afterPath="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/classes/db.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/client/BankClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/client/BankClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/db.conf" afterPath="$PROJECT_DIR$/src/main/resources/db.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/db.conf" afterPath="$PROJECT_DIR$/target/classes/db.conf" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,22 +94,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BankClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/client/BankClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/client/BankClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="LDAP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/LDAP.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/LDAP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="901">
+              <caret line="79" column="5" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -47,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/ldapIp.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -67,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/db.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -90,8 +162,8 @@
     </findStrings>
     <replaceStrings>
       <replace />
-      <replace>com.smartwallet.rest.bank.messages</replace>
-      <replace>com.smartwallet.rest.client</replace>
+      <replace>com.mobilewallet.rest.bank.messages</replace>
+      <replace>com.mobilewallet.rest.client</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -106,37 +178,37 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/vanillahoney/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/bank/messages/AddAccountNumberTokenBankMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/messages/ConfirmTransactionGcmMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/db/PendingIdentityConfirmationDbObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/messages/GcmMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/messages/ConfirmIdentityGcmMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/ocrahotp/Ocra.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/ocrahotp/OcraHotp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/ocrahotp/OtpGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/AddAccountNumberServiceMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/ConfirmIdentityResponseServiceMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/ConfirmTransactionResponseServiceMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/DateDeserializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/ServiceMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/MyResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/Recovery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/UserData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/RegistrationUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/GcmMessageType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/Gcm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/bank/messages/BankMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/bank/messages/AddAccountNumberTokenBankMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/gcm/messages/ConfirmTransactionGcmMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/db/PendingIdentityConfirmationDbObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/gcm/messages/GcmMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/gcm/messages/ConfirmIdentityGcmMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/ocrahotp/Ocra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/ocrahotp/OcraHotp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/ocrahotp/OtpGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/messages/AddAccountNumberServiceMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/messages/ConfirmIdentityResponseServiceMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/messages/ConfirmTransactionResponseServiceMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/messages/DateDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/messages/ServiceMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/MyResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/Recovery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/UserData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/RegistrationUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/gcm/GcmMessageType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/gcm/Gcm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/bank/messages/BankMessage.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/SimpleRestService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/db/MysqlDb.java" />
-        <option value="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/classes/db.conf" />
-        <option value="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/classes/com/smartwallet/bank.conf" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/SimpleRestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/db/MysqlDb.java" />
+        <option value="$PROJECT_DIR$/out/artifacts/MobileWallet_Rest_war_exploded/WEB-INF/classes/db.conf" />
+        <option value="$PROJECT_DIR$/out/artifacts/MobileWallet_Rest_war_exploded/WEB-INF/classes/com/mobilewallet/bank.conf" />
         <option value="$PROJECT_DIR$/src/main/resources/bank.conf" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/client/BankClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/LDAP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/client/BankClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/LDAP.java" />
       </list>
     </option>
   </component>
@@ -181,45 +253,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SmartWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartWallet.Rest" type="462c0819:PsiDirectoryNode" />
+              <item name="MobileWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileWallet.Rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SmartWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartWallet.Rest" type="462c0819:PsiDirectoryNode" />
+              <item name="MobileWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileWallet.Rest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SmartWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartWallet.Rest" type="462c0819:PsiDirectoryNode" />
+              <item name="MobileWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileWallet.Rest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SmartWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartWallet.Rest" type="462c0819:PsiDirectoryNode" />
+              <item name="MobileWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileWallet.Rest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SmartWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartWallet.Rest" type="462c0819:PsiDirectoryNode" />
+              <item name="MobileWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileWallet.Rest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SmartWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartWallet.Rest" type="462c0819:PsiDirectoryNode" />
+              <item name="MobileWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileWallet.Rest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -227,8 +297,8 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SmartWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartWallet.Rest" type="462c0819:PsiDirectoryNode" />
+              <item name="MobileWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileWallet.Rest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -236,8 +306,8 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SmartWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartWallet.Rest" type="462c0819:PsiDirectoryNode" />
+              <item name="MobileWallet.Rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileWallet.Rest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -246,7 +316,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,11 +329,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/zxing-2.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/classes/com" />
+      <recent name="$PROJECT_DIR$/out/artifacts/MobileWallet_Rest_war_exploded/WEB-INF/classes/com" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -277,12 +349,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="TomcatRest" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="TomcatRest" ALTERNATIVE_JRE_ENABLED="false">
+  <component name="RunManager" selected="Tomcat Server.TomcatRest">
+    <configuration name="TomcatRest" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="https://localhost:8443/service/getTest" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SmartWallet.Rest:war exploded">
+        <artifact name="MobileWallet.Rest:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -349,7 +421,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SmartWallet.Rest:war exploded" />
+          <artifact name="MobileWallet.Rest:war exploded" />
         </option>
       </method>
     </configuration>
@@ -480,12 +552,13 @@
       <workItem from="1512556235112" duration="1117000" />
       <workItem from="1513095014836" duration="1864000" />
       <workItem from="1513103401265" duration="3523000" />
-      <workItem from="1513270329117" duration="692000" />
+      <workItem from="1513270329117" duration="770000" />
+      <workItem from="1515090536114" duration="304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32871000" />
+    <option name="totallyTimeSpent" value="33253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -501,7 +574,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4172043" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41431925" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4139785" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -534,7 +607,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/bank/messages/BankMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/bank/messages/BankMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
@@ -556,147 +629,147 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vanillahoney/HelloWorld.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vanillahoney/HelloWorld.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vanillahoney/HelloWorld.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/bank/messages/AddAccountNumberTokenBankMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/bank/messages/AddAccountNumberTokenBankMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/db/PendingIdentityConfirmationDbObject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/db/PendingIdentityConfirmationDbObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/messages/GcmMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/gcm/messages/GcmMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/messages/ConfirmTransactionGcmMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/gcm/messages/ConfirmTransactionGcmMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/ocrahotp/Ocra.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/ocrahotp/Ocra.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/ocrahotp/OcraHotp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/ocrahotp/OcraHotp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/ocrahotp/OtpGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/ocrahotp/OtpGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/AddAccountNumberServiceMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/messages/AddAccountNumberServiceMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/ConfirmIdentityResponseServiceMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/messages/ConfirmIdentityResponseServiceMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/ConfirmTransactionResponseServiceMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/messages/ConfirmTransactionResponseServiceMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/ServiceMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/messages/ServiceMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/MyResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/MyResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/UserData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/UserData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/Utils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/Recovery.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/Recovery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/RegistrationUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/RegistrationUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1734">
           <caret line="117" column="13" lean-forward="false" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/messages/DateDeserializer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/messages/DateDeserializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/messages/ConfirmIdentityGcmMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/gcm/messages/ConfirmIdentityGcmMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/GcmMessageType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/gcm/GcmMessageType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/gcm/Gcm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/gcm/Gcm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smartwallet.db">
+    <entry file="file://$PROJECT_DIR$/mobilewallet.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
@@ -710,7 +783,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/bank/messages/BankMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/bank/messages/BankMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
@@ -752,14 +825,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/SmartWallet_Rest_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/MobileWallet_Rest_war_exploded.xml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -768,7 +834,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SmartWallet.Rest.iml">
+    <entry file="file://$PROJECT_DIR$/MobileWallet.Rest.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -776,46 +842,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/db/MysqlDb.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/db/MysqlDb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="31" column="96" lean-forward="false" selection-start-line="31" selection-start-column="96" selection-end-line="31" selection-end-column="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/classes/db.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/SimpleRestService.java">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MobileWallet_Rest_war_exploded/WEB-INF/classes/db.conf" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/SimpleRestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/SmartWallet_Rest_war_exploded/WEB-INF/classes/com/bank.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/client/BankClient.java">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MobileWallet_Rest_war_exploded/WEB-INF/classes/com/bank.conf" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/client/BankClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/rest/service/LDAP.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mobilewallet/rest/service/LDAP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        <state relative-caret-position="901">
+          <caret line="79" column="5" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -823,7 +877,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/ldapIp.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -839,7 +893,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -850,7 +904,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>SmartWallet.Rest:war exploded</last-edited>
+          <last-edited>MobileWallet.Rest:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -898,7 +952,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Rest|SmartWallet</last-edited>
+          <last-edited>Rest|MobileWallet</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
