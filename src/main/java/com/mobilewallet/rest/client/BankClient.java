@@ -8,11 +8,14 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import com.mobilewallet.rest.service.HttpsCertificateUtils;
 import org.codehaus.jackson.map.ObjectMapper;
 
 import com.google.gson.Gson;
 
 import com.mobilewallet.rest.bank.messages.BankMessage;
+
+import javax.net.ssl.HttpsURLConnection;
 
 public class BankClient {
 //	private static final String AddressBase = "http://127.0.0.1:8080/bank/rest/";
@@ -31,7 +34,7 @@ public class BankClient {
 			AddressBase = br.readLine();
 			br.close();
 		} catch (Exception e) {
-			AddressBase = "http://127.0.0.1:8080/bank/rest/";
+			AddressBase = "https://127.0.0.1:8080/bank/rest/";
 			e.printStackTrace();
 			System.out.println("IP config file not found");
 		}
@@ -46,7 +49,13 @@ public class BankClient {
 
 		try {
 	        URL url = new URL(AddressBase + request);
-	        HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+	        HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
+			try {
+				urlConnection.setSSLSocketFactory(HttpsCertificateUtils.getSslFactoryWithTrustedCertificate());
+			} catch (Exception e) {
+				e.printStackTrace();
+				return 500;
+			}
 	
 	        if (!request.equals("getTest")) {
 		        urlConnection.setRequestMethod("POST");
