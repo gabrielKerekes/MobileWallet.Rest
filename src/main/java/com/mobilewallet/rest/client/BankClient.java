@@ -9,6 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import com.mobilewallet.rest.service.HttpsCertificateUtils;
+import com.mobilewallet.rest.service.NullHostNameVerifier;
 import org.codehaus.jackson.map.ObjectMapper;
 
 import com.google.gson.Gson;
@@ -52,6 +53,8 @@ public class BankClient {
 	        HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
 			try {
 				urlConnection.setSSLSocketFactory(HttpsCertificateUtils.getSslFactoryWithTrustedCertificate());
+				// uncomment for trust all
+				//urlConnection.setHostnameVerifier(new NullHostNameVerifier());
 			} catch (Exception e) {
 				e.printStackTrace();
 				return 500;
