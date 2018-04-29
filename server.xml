@@ -18,6 +18,8 @@
                maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
                clientAuth="false" sslProtocol="TLS"                
                keystoreFile="C:/Users/GabrielK/skola/dp/ssl5/testKeystore.jks" keystorePass="changeit"/>
+               <!-- uncomment and fill for client certificate -->
+               <!-- truststorePath="[PATH]" truststorePass="[PASS]"/> -->
     
     <Connector port="8009" protocol="AJP/1.3" redirectPort="8443" />
 
